@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: sans-serif;  /* Choose a clear and readable font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text color for contrast */
+}
+
+/* Header Styles */
+header {
+    background: #333;  /* Dark background for header */
+    color: #fff;      /* White text color */
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Container for main content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Form Styles */
+#game-form, #quiz-container, #results-container {
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], 
+input[type="radio"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button Styles */
+input[type="submit"], button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+/* Infographic Styles */
+#infographic {
+    text-align: center; /* Center the infographic */
+}
+
+#infographic img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Quiz Styles */
+.question {
+    margin-bottom: 20px;
+}
+
+/* Results Styles */
+#results-container {
+    text-align: center;
+}
+
+/* Responsive Design (for smaller screens) */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}
